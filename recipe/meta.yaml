@@ -1,4 +1,4 @@
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggh4x_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggh4x/ggh4x_{{ version }}.tar.gz
-  sha256: 8af0e855bf221ce53b3162ae9d25a8d04525aabbda2f63c4843d86ee3eca4535
+  sha256: 7cf09b31d69da2d84fbc4266c567a65bebc91eaeabe0357bb651b732ed536295
 
 build:
   merge_build_host: true  # [win]
