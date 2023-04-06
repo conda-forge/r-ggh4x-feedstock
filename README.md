@@ -1,11 +1,11 @@
-About r-ggh4x
-=============
+About r-ggh4x-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggh4x-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/teunbrand/ggh4x
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggh4x-feedstock/blob/main/LICENSE.txt)
 
 Summary: A 'ggplot2' extension that does a variety of little helpful things.  The package extends 'ggplot2' facets through customisation, by setting individual scales per panel, resizing panels and providing nested facets.  Also allows multiple colour and fill scales per plot. Also hosts a smaller collection of stats, geoms and axis guides.
 
