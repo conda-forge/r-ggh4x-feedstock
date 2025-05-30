@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggh4x_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggh4x/ggh4x_{{ version }}.tar.gz
-  sha256: e618640da1ae35787e2c5c8f52f743b0e959cf51d70016ae0a0a7f28cd053877
+  sha256: d8fcc030ee7508126c22ad846228e49067c4764293bb12cc606b08c665705f87
 
 build:
   number: 0
